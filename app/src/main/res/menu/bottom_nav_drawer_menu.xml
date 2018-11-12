@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/accout_setting"
+
+            android:title="Nav1"
+            />
+    </group>
+    <group>
+        <item
+            android:id="@+id/logout"
+
+            android:title="Nav2" />
+    </group>
+    <group>
+        <item
+            android:id="@+id/search"
+
+            android:title="Nav3"/>
+    </group>
+
+</menu>

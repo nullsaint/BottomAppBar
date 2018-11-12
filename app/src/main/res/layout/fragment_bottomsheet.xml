@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#FFF"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:layout_margin="8dp"
+        android:orientation="vertical"
+        app:itemTextColor="#FFFFFF"
+        app:menu="@menu/bottom_nav_drawer_menu">
+
+    </android.support.design.widget.NavigationView>
+
+
+</android.support.constraint.ConstraintLayout>
